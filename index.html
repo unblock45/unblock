@@ -13,19 +13,16 @@
     </iframe>
 
     <script>
-     var admin-user = prompt("Admin or User?");
-     console.log(admin-user);
      
-   if (admin-user = "user"){  
        var answer = prompt("Password");
         console.log(answer);
-}
 
-if (answer != "xcz-hhh-poi") {
+
+if (answer != "startpassword") {
   alert("False or no Pssword")
 }
 
-if (answer == "xcz-hhh-poi") {
+if (answer == "startpassword") {
   var url = prompt("Please enter website url:", "http://");
         document.getElementById("website").src = url;
 }
