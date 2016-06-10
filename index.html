@@ -14,6 +14,17 @@ body {
     top: 0;
     left: 0;
 }
+
+a {
+    margin-left: -10em;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+a:hover {
+    margin-left: 0px;
+    transition-duration: 0.5s;
+}
 </style>
 </head>
 
@@ -22,18 +33,20 @@ body {
     <iframe src="#" id="website" scrolling="no">
         <p>Your browser does not support iframes.</p>
     </iframe>
+    
+    <a href="mailto:unblock45@gmail.com.com">Contact Us</a>
 
     <script>
      
-//       var answer = prompt("Password");
-//         console.log(answer);
+      var answer = prompt("Password");
+        console.log(answer);
 
 
-// if (answer != "startpassword") {
-//   alert("False or no Pssword")
-// }
+if (answer != "unblock2016") {
+  alert("False or no Pssword")
+}
 
-// if (answer == "startpassword") {
+if (answer == "unblock2016") {
   var url = prompt("Please enter website url:", "http://");
         document.getElementById("website").src = url;
 }
