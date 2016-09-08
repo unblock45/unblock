@@ -34,8 +34,6 @@ body {*/
 
     <script>
 
-  alert("This Page is Not Completed")
-
       var answer = prompt("Password");
        console.log(answer);
 if (answer != "unblock2016") {
